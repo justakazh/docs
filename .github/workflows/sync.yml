@@ -17,3 +17,6 @@ jobs:
       run: |
         rm -fr content
         git clone https://github.com/justakazh/technical_notes content && rm -rf content/.git content/.github
+        git add .
+        git commit -m "new update"
+        git push origin main
